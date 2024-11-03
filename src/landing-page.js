@@ -14,7 +14,7 @@ const section1 = () => {
     // Set the background image using the imported image
 parentContainer.style.backgroundImage = `url(${pedro1})`;
 parentContainer.style.backgroundSize = "cover"; // Ensures the image covers the container
-parentContainer.style.backgroundPosition = "300px 0";
+parentContainer.style.backgroundPosition = "150px 0";
 parentContainer.style.backgroundRepeat = "no-repeat"; // Prevents the image from repeating
 
     const textContainer = document.createElement("div");

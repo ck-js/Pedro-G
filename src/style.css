@@ -26,7 +26,7 @@ body {
 .text-containers {
     display: flex;
     flex-direction: column;
-    border: 2px solid #bbeD2F;
+    /* border: 2px solid #bbeD2F; */
 }
 .text-containers h1 {
     
