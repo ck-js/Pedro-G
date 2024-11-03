@@ -85,9 +85,9 @@ const section3 = () => {
     const cardContainer = document.createElement("div");
     cardContainer.className = "card-containers";
 
-    const cardItem1 = createCardItem(icon1, "Sales & Marketing");
-    const cardItem2 = createCardItem(icon2, "Business Development");
-    const cardItem3 = createCardItem(icon3, "Customer Service");
+    const cardItem1 = createCardItem(icon1, "Strategic Branding & Growth");
+    const cardItem2 = createCardItem(icon2, "P&L Growth & Financial Performance");
+    const cardItem3 = createCardItem(icon3, "E-Commerce & Digital Excellence");
 
     cardContainer.appendChild(cardItem1);
     cardContainer.appendChild(cardItem2);
