@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `:root {\n    --main-bg-color: #414141;\n    --main-text-color: white;\n    --primary-font-size: 16px;\n\n    --neon-green-color: #bbeD2F;\n}\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    list-style-type: none;\n}\nbody {\n    background-color: var(--main-bg-color);\n    color: var(--main-text-color);\n    font-size: var(--primary-font-size);\n}\n.parent-containers {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    height: 720px;\n}\n.text-containers {\n    display: flex;\n    flex-direction: column;\n    /* border: 2px solid #bbeD2F; */\n}\n.text-containers h1 {\n    \n    padding: 20px 0;\n}\n.ctas {\n    background-color: #bbeD2F;\n    text-decoration: none;\n    color:  black;\n    text-align:  center;\n    padding: 10px 40px;\n    width: 70%;\n    border-radius: 30px;\n}\n\n#text-container-1 p {\n    margin-bottom: 100px;\n    \n}\n#text-container-2  {\n    text-align: left;\n    padding-left: 5px;\n}\n\n#parent-container-3 {\n    background-color: var(--neon-green-color);\n    color: black;\n    height: 1400px;\n}\n.card-containers {\n    display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n    align-items: center;\n    padding: 20px;\n    row-gap: 50px;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://pedro/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `:root {\n    --main-bg-color: #414141;\n    --main-text-color: white;\n    --primary-font-size: 16px;\n\n    --neon-green-color: #bbeD2F;\n}\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    list-style-type: none;\n}\nbody {\n    background-color: var(--main-bg-color);\n    color: var(--main-text-color);\n    font-size: var(--primary-font-size);\n}\n.parent-containers {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    height: 720px;\n}\n.text-containers {\n    display: flex;\n    flex-direction: column;\n    /* border: 2px solid #bbeD2F; */\n}\n.text-containers h1 {\n    \n    padding: 20px 0;\n}\n.ctas {\n    background-color: #bbeD2F;\n    text-decoration: none;\n    color:  black;\n    text-align:  center;\n    padding: 10px 40px;\n    width: 70%;\n    border-radius: 30px;\n}\n\n#text-container-1 p {\n    margin-bottom: 100px;\n    \n}\n#text-container-2  {\n    text-align: left;\n    padding-left: 5px;\n}\n\n#parent-container-3 {\n    background-color: var(--neon-green-color);\n    color: black;\nheight: auto;\npadding: 100px 0;\ntext-align: center;\n    \n}\n#parent-container-3 h3 {\n    padding: 20px 0;\n    font-size: x-large;\n}\n.card-containers {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    padding: 20px 0;\n    row-gap: 100px;\n}\n.card-containers img {\n    max-width: 250px;\n    max-height: 250px;\n\n    border-radius: 10px;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://pedro/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -126,7 +126,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   section1: () => (/* binding */ section1),\n/* harmony export */   section2: () => (/* binding */ section2),\n/* harmony export */   section3: () => (/* binding */ section3)\n/* harmony export */ });\n/* harmony import */ var _pedro_1_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pedro-1.png */ \"./src/pedro-1.png\");\n/* harmony import */ var _skills_icon_1_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./skills-icon-1.png */ \"./src/skills-icon-1.png\");\n/* harmony import */ var _skills_icon_2_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./skills-icon-2.png */ \"./src/skills-icon-2.png\");\n/* harmony import */ var _skills_icon_3_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./skills-icon-3.png */ \"./src/skills-icon-3.png\");\n\n\n\n\n\n\n// hero section 1\nconst section1 = () => {\n\n    const parentContainer = document.createElement(\"div\");\n    parentContainer.className = \"parent-containers\";\n    parentContainer.id = \"parent-container-1\";\n\n    // Set the background image using the imported image\nparentContainer.style.backgroundImage = `url(${_pedro_1_png__WEBPACK_IMPORTED_MODULE_0__})`;\nparentContainer.style.backgroundSize = \"cover\"; // Ensures the image covers the container\nparentContainer.style.backgroundPosition = \"150px 0\";\nparentContainer.style.backgroundRepeat = \"no-repeat\"; // Prevents the image from repeating\n\n    const textContainer = document.createElement(\"div\");\ntextContainer.className = \"text-containers\";\ntextContainer.id = \"text-container-1\";\nconst h1 = document.createElement(\"h1\");\nh1.innerHTML = \"Hola, I'm<br>Pedro Garda\";\nconst p = document.createElement(\"p\");\np.innerHTML = \"Driving Growth and<br>Profitability in Retail & FMCG\";\nconst cta = document.createElement(\"a\");\ncta.href = \"#\";\ncta.className = \"ctas\";\ncta.innerHTML = \"View My Profile\";\n\ntextContainer.appendChild(h1);\ntextContainer.appendChild(p);\ntextContainer.appendChild(cta);\n\nparentContainer.appendChild(textContainer);\n\nreturn parentContainer;\n}\n\n// section 2\nconst section2 = () => {\n    const parentContainer = document.createElement(\"div\");\n    parentContainer.className = \"parent-containers\";\n    parentContainer.id = \"parent-container-2\";\n\n    const textContainer = document.createElement(\"div\");\n    textContainer.className = \"text-containers\";\n    textContainer.id = \"text-container-2\";\n    const h2 = document.createElement(\"h2\");\n    h2.innerHTML = \"Who I Am & What I Do\";\n    const p = document.createElement(\"p\");\n    p.innerHTML = \"<span class='span-bolds'>My name is Pedro Garda.</span><br>Sales Director & Consumer Goods with<br>+10 years directing market expansion in FMCG.\";\n    const ul = document.createElement(\"ul\");\n    const li1 = document.createElement(\"li\");\n    li1.innerHTML = \"- P&L Management\";\n    const li2 = document.createElement(\"li\");\n    li2.innerHTML = \"- Go-to Market Strategies\";\n    const li3 = document.createElement(\"li\");\n    li3.innerHTML = \"- Customer Metrics Assesment\";\n    const li4 = document.createElement(\"li\");\n    li4.innerHTML = \"- Team Leadership & Mentorship\";\n\n    ul.appendChild(li1);\n    ul.appendChild(li2);\n    ul.appendChild(li3);\n    ul.appendChild(li4);\n\n\n    textContainer.appendChild(h2);\n    textContainer.appendChild(p);\n    textContainer.appendChild(ul);\n    \n\n    parentContainer.appendChild(textContainer);\n\n    return parentContainer;\n}\n\nconst section3 = () => {\n    const parentContainer = document.createElement(\"div\");\n    parentContainer.className = \"parent-containers\";\n    parentContainer.id = \"parent-container-3\";\n\n    const cardContainer = document.createElement(\"div\");\n    cardContainer.className = \"card-containers\";\n\n    const cardItem1 = createCardItem(_skills_icon_1_png__WEBPACK_IMPORTED_MODULE_1__, \"Strategic Branding & Growth\");\n    const cardItem2 = createCardItem(_skills_icon_2_png__WEBPACK_IMPORTED_MODULE_2__, \"P&L Growth & Financial Performance\");\n    const cardItem3 = createCardItem(_skills_icon_3_png__WEBPACK_IMPORTED_MODULE_3__, \"E-Commerce & Digital Excellence\");\n\n    cardContainer.appendChild(cardItem1);\n    cardContainer.appendChild(cardItem2);\n    cardContainer.appendChild(cardItem3);\n    \n\n    parentContainer.appendChild(cardContainer);\n    \n\nreturn parentContainer;\n}\n\nconst createCardItem = (icon, innerHtml) => {\n    const cardItem = document.createElement(\"div\");\n    cardItem.className = \"card-items\";\n\nconst image = document.createElement(\"img\");\nimage.src = icon;\n\n    const h3 = document.createElement(\"h3\");\n    h3.innerHTML = innerHtml;\n    \n    cardItem.appendChild(image);\n    cardItem.appendChild(h3);\n\n\n    return cardItem;\n}\n\n\n\n\n\n//# sourceURL=webpack://pedro/./src/landing-page.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   section1: () => (/* binding */ section1),\n/* harmony export */   section2: () => (/* binding */ section2),\n/* harmony export */   section3: () => (/* binding */ section3)\n/* harmony export */ });\n/* harmony import */ var _pedro_1_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pedro-1.png */ \"./src/pedro-1.png\");\n/* harmony import */ var _skills_icon_1_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./skills-icon-1.png */ \"./src/skills-icon-1.png\");\n/* harmony import */ var _skills_icon_2_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./skills-icon-2.png */ \"./src/skills-icon-2.png\");\n/* harmony import */ var _skills_icon_3_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./skills-icon-3.png */ \"./src/skills-icon-3.png\");\n/* harmony import */ var _skills_icon_4_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./skills-icon-4.png */ \"./src/skills-icon-4.png\");\n/* harmony import */ var _skills_icon_5_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./skills-icon-5.png */ \"./src/skills-icon-5.png\");\n/* harmony import */ var _skills_icon_6_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./skills-icon-6.png */ \"./src/skills-icon-6.png\");\n/* harmony import */ var _skills_icon_7_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./skills-icon-7.png */ \"./src/skills-icon-7.png\");\n/* harmony import */ var _skills_icon_8_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./skills-icon-8.png */ \"./src/skills-icon-8.png\");\n/* harmony import */ var _skills_icon_9_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./skills-icon-9.png */ \"./src/skills-icon-9.png\");\n/* harmony import */ var _skills_icon_10_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./skills-icon-10.png */ \"./src/skills-icon-10.png\");\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n// hero section 1\nconst section1 = () => {\n\n    const parentContainer = document.createElement(\"div\");\n    parentContainer.className = \"parent-containers\";\n    parentContainer.id = \"parent-container-1\";\n\n    // Set the background image using the imported image\nparentContainer.style.backgroundImage = `url(${_pedro_1_png__WEBPACK_IMPORTED_MODULE_0__})`;\nparentContainer.style.backgroundSize = \"cover\"; // Ensures the image covers the container\nparentContainer.style.backgroundPosition = \"150px 0\";\nparentContainer.style.backgroundRepeat = \"no-repeat\"; // Prevents the image from repeating\n\n    const textContainer = document.createElement(\"div\");\ntextContainer.className = \"text-containers\";\ntextContainer.id = \"text-container-1\";\nconst h1 = document.createElement(\"h1\");\nh1.innerHTML = \"Hola, I'm<br>Pedro Garda\";\nconst p = document.createElement(\"p\");\np.innerHTML = \"Driving Growth and<br>Profitability in Retail & FMCG\";\nconst cta = document.createElement(\"a\");\ncta.href = \"#\";\ncta.className = \"ctas\";\ncta.innerHTML = \"View My Profile\";\n\ntextContainer.appendChild(h1);\ntextContainer.appendChild(p);\ntextContainer.appendChild(cta);\n\nparentContainer.appendChild(textContainer);\n\nreturn parentContainer;\n}\n\n// section 2\nconst section2 = () => {\n    const parentContainer = document.createElement(\"div\");\n    parentContainer.className = \"parent-containers\";\n    parentContainer.id = \"parent-container-2\";\n\n    const textContainer = document.createElement(\"div\");\n    textContainer.className = \"text-containers\";\n    textContainer.id = \"text-container-2\";\n    const h2 = document.createElement(\"h2\");\n    h2.innerHTML = \"Who I Am & What I Do\";\n    const p = document.createElement(\"p\");\n    p.innerHTML = \"<span class='span-bolds'>My name is Pedro Garda.</span><br>Sales Director & Consumer Goods with<br>+10 years directing market expansion in FMCG.\";\n    const ul = document.createElement(\"ul\");\n    const li1 = document.createElement(\"li\");\n    li1.innerHTML = \"- P&L Management\";\n    const li2 = document.createElement(\"li\");\n    li2.innerHTML = \"- Go-to Market Strategies\";\n    const li3 = document.createElement(\"li\");\n    li3.innerHTML = \"- Customer Metrics Assesment\";\n    const li4 = document.createElement(\"li\");\n    li4.innerHTML = \"- Team Leadership & Mentorship\";\n\n    ul.appendChild(li1);\n    ul.appendChild(li2);\n    ul.appendChild(li3);\n    ul.appendChild(li4);\n\n\n    textContainer.appendChild(h2);\n    textContainer.appendChild(p);\n    textContainer.appendChild(ul);\n    \n\n    parentContainer.appendChild(textContainer);\n\n    return parentContainer;\n}\n\nconst section3 = () => {\n    const parentContainer = document.createElement(\"div\");\n    parentContainer.className = \"parent-containers\";\n    parentContainer.id = \"parent-container-3\";\n\n    const cardContainer = document.createElement(\"div\");\n    cardContainer.className = \"card-containers\";\n\n    const cardItem1 = createCardItem(_skills_icon_1_png__WEBPACK_IMPORTED_MODULE_1__, \"Strategic Branding & Growth\");\n    const cardItem2 = createCardItem(_skills_icon_2_png__WEBPACK_IMPORTED_MODULE_2__, \"P&L Growth & Financial Performance\");\n    const cardItem3 = createCardItem(_skills_icon_3_png__WEBPACK_IMPORTED_MODULE_3__, \"E-Commerce & Digital Excellence\");\n    const cardItem4 = createCardItem(_skills_icon_4_png__WEBPACK_IMPORTED_MODULE_4__, \"Brand Activation & Launches\");\n    const cardItem5 = createCardItem(_skills_icon_5_png__WEBPACK_IMPORTED_MODULE_5__, \"Senior Team Recruitment & Development\");\n    const cardItem6 = createCardItem(_skills_icon_6_png__WEBPACK_IMPORTED_MODULE_6__, \"Distributor, Partner & Agent Management\");\n    const cardItem7 = createCardItem(_skills_icon_7_png__WEBPACK_IMPORTED_MODULE_7__, \"Local & International Regulatory Compliance\");\n    const cardItem8 = createCardItem(_skills_icon_8_png__WEBPACK_IMPORTED_MODULE_8__, \"Merchandising Partnerships & Seasonality\");\n    const cardItem9 = createCardItem(_skills_icon_9_png__WEBPACK_IMPORTED_MODULE_9__, \"Route-To-Market Strategies\");\n    const cardItem10 = createCardItem(_skills_icon_10_png__WEBPACK_IMPORTED_MODULE_10__, \"Project Management Certified Agile Associate IPMA®\");\n\n\n    cardContainer.appendChild(cardItem1);\n    cardContainer.appendChild(cardItem2);\n    cardContainer.appendChild(cardItem3);\n    cardContainer.appendChild(cardItem4);\n    cardContainer.appendChild(cardItem5);\n    cardContainer.appendChild(cardItem6);\n    cardContainer.appendChild(cardItem7);\n    cardContainer.appendChild(cardItem8);\n    cardContainer.appendChild(cardItem9);\n    cardContainer.appendChild(cardItem10);\n    \n\n    parentContainer.appendChild(cardContainer);\n    \n\nreturn parentContainer;\n}\n\nconst createCardItem = (icon, innerHtml) => {\n    const cardItem = document.createElement(\"div\");\n    cardItem.className = \"card-items\";\n\nconst image = document.createElement(\"img\");\nimage.src = icon;\n\n    const h3 = document.createElement(\"h3\");\n    h3.innerHTML = innerHtml;\n    \n    cardItem.appendChild(image);\n    cardItem.appendChild(h3);\n\n\n    return cardItem;\n}\n\n\n\n\n\n//# sourceURL=webpack://pedro/./src/landing-page.js?");
 
 /***/ }),
 
@@ -146,7 +146,17 @@ eval("module.exports = __webpack_require__.p + \"835151946b46f1e01256.png\";\n\n
   \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"8492a7df81e55c77f563.png\";\n\n//# sourceURL=webpack://pedro/./src/skills-icon-1.png?");
+eval("module.exports = __webpack_require__.p + \"c5c1b4722e6808b9cf1a.png\";\n\n//# sourceURL=webpack://pedro/./src/skills-icon-1.png?");
+
+/***/ }),
+
+/***/ "./src/skills-icon-10.png":
+/*!********************************!*\
+  !*** ./src/skills-icon-10.png ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"a45b2647d50431222c66.png\";\n\n//# sourceURL=webpack://pedro/./src/skills-icon-10.png?");
 
 /***/ }),
 
@@ -156,7 +166,7 @@ eval("module.exports = __webpack_require__.p + \"8492a7df81e55c77f563.png\";\n\n
   \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"0f7a73338a331c8c0b89.png\";\n\n//# sourceURL=webpack://pedro/./src/skills-icon-2.png?");
+eval("module.exports = __webpack_require__.p + \"fee7aed1c64cd19e9fcb.png\";\n\n//# sourceURL=webpack://pedro/./src/skills-icon-2.png?");
 
 /***/ }),
 
@@ -166,7 +176,67 @@ eval("module.exports = __webpack_require__.p + \"0f7a73338a331c8c0b89.png\";\n\n
   \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"9560b4bb31167021fe83.png\";\n\n//# sourceURL=webpack://pedro/./src/skills-icon-3.png?");
+eval("module.exports = __webpack_require__.p + \"e6fa877d635621885462.png\";\n\n//# sourceURL=webpack://pedro/./src/skills-icon-3.png?");
+
+/***/ }),
+
+/***/ "./src/skills-icon-4.png":
+/*!*******************************!*\
+  !*** ./src/skills-icon-4.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"253b581683fb0a783524.png\";\n\n//# sourceURL=webpack://pedro/./src/skills-icon-4.png?");
+
+/***/ }),
+
+/***/ "./src/skills-icon-5.png":
+/*!*******************************!*\
+  !*** ./src/skills-icon-5.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"3200a26d4b401520c8f5.png\";\n\n//# sourceURL=webpack://pedro/./src/skills-icon-5.png?");
+
+/***/ }),
+
+/***/ "./src/skills-icon-6.png":
+/*!*******************************!*\
+  !*** ./src/skills-icon-6.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"099b3f7d20b93fab640a.png\";\n\n//# sourceURL=webpack://pedro/./src/skills-icon-6.png?");
+
+/***/ }),
+
+/***/ "./src/skills-icon-7.png":
+/*!*******************************!*\
+  !*** ./src/skills-icon-7.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"8a3c5f5486ec2920b8fd.png\";\n\n//# sourceURL=webpack://pedro/./src/skills-icon-7.png?");
+
+/***/ }),
+
+/***/ "./src/skills-icon-8.png":
+/*!*******************************!*\
+  !*** ./src/skills-icon-8.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"ffc5c2166e786a8e0a93.png\";\n\n//# sourceURL=webpack://pedro/./src/skills-icon-8.png?");
+
+/***/ }),
+
+/***/ "./src/skills-icon-9.png":
+/*!*******************************!*\
+  !*** ./src/skills-icon-9.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"22049ac186981061f055.png\";\n\n//# sourceURL=webpack://pedro/./src/skills-icon-9.png?");
 
 /***/ })
 
