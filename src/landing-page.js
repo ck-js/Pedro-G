@@ -1,4 +1,5 @@
 import pedro1 from "./pedro-1.png"
+import linkedinBanner from "./linkedin-banner.png" 
 import icon1 from "./skills-icon-1.png"
 import icon2 from "./skills-icon-2.png"
 import icon3 from "./skills-icon-3.png"
@@ -12,6 +13,7 @@ import icon10 from "./skills-icon-10.png"
 import pedro2 from "./pedro-2.png"
 import educationLogo1 from "./education-1.png"
 import educationLogo2 from "./education-2.png"
+import educationLogo3 from "./education-3.png"
 import linkedInIcon from "./linkedin.png"
 import lineIcon from "./line.png"
 import whatsappIcon from "./whatsapp.png"
@@ -40,6 +42,7 @@ parentContainer.style.backgroundImage = `url(${pedro1})`;
 parentContainer.style.backgroundSize = "cover"; // Ensures the image covers the container
 parentContainer.style.backgroundPosition = "75px 0";
 parentContainer.style.backgroundRepeat = "no-repeat"; // Prevents the image from repeating
+parentContainer.style.backgroundAttachment = "fixed";
 
     const textContainer = document.createElement("div");
 textContainer.className = "text-containers";
@@ -49,7 +52,8 @@ h1.innerHTML = "Hola, I'm<br>Pedro Garda";
 const p = document.createElement("p");
 p.innerHTML = "Driving Growth and<br>Profitability in Retail & FMCG";
 const cta = document.createElement("a");
-cta.href = "#parent-container-2";
+cta.href = "https://www.linkedin.com/in/pedrogarda/";
+cta.target = "_blank";
 cta.className = "ctas";
 cta.innerHTML = "View My Profile";
 
@@ -60,17 +64,29 @@ textContainer.appendChild(cta);
 const gradientOverlay = document.createElement("div");
 gradientOverlay.className = "gradient-overlays";
 
+
 parentContainer.appendChild(textContainer);
 parentContainer.appendChild(gradientOverlay);
 
+
 return parentContainer;
 }
+const linkedInBannerSection = () => {
+const parentContainer = createParentContainer("parent-container-7");
+parentContainer.style.backgroundImage = `url(${linkedinBanner})`;
+parentContainer.style.backgroundSize = "contain"; 
+parentContainer.style.backgroundPosition = "center";
+parentContainer.style.backgroundRepeat = "no-repeat";
 
+    
+    return parentContainer;
+}
 // section 2
 const section2 = () => {
     const parentContainer = document.createElement("div");
     parentContainer.className = "parent-containers";
     parentContainer.id = "parent-container-2";
+
 
     const textContainer = document.createElement("div");
     textContainer.className = "text-containers";
@@ -95,12 +111,35 @@ const section2 = () => {
     ul.appendChild(li3);
     ul.appendChild(li4);
 
+    const expandable = document.createElement("p");
+    expandable.className = "expandables";
+    expandable.innerHTML = "Read more";
+
+const expandableContainer = document.createElement("div");
+expandableContainer.className = "expandable-container hidden";
+expandableContainer.setAttribute('aria-hidden', 'true');
+
+const expandableParagraph1 = `
+<p>As a highly accomplished Sales Director with over 18 years of experience in the FMCG industry, I have a proven track record of driving business growth and profitability. My expertise lies in steering business direction, leading new business development, and orchestrating strategic branding and marketing initiatives for FMCG, Retailers, Distributors, and E-commerce companies. My leadership has consistently fueled growth across these sectors.</p>
+<p>In addition to my role as a Sales Director, I have extensive experience in Interim Management and Consulting. I specialize in evaluating current business positions, customer metrics, and P&L activities to ensure alignment with growth targets. My unique ability to create and innovate cutting-edge strategic plans has driven superior profitability and market expansion.</p>
+<p>My leadership style is adaptive and tailored to the needs of the team. I primarily employ a delegative approach, emphasizing trust and autonomy. For apprentices, I offer clear guidance through a more directive style. As the team develops, I transition to a delegating style to encourage autonomy. With skilled members, I use a coaching approach to foster growth, and for experts, an empowering style allows them to thrive independently. This tailored approach optimizes team performance at every stage of development.</p>
+<p>I have successfully overseen a team of five members directly at a leading Swiss nutrition company and directly managed an Area Sales Manager at a global food company in Hong Kong. Additionally, I have managed approximately 300 indirect distributor staff across Asia.</p>
+<p>My passion lies in cultivating robust, sustainable, and mutually beneficial relationships with both internal and external stakeholders. This dedication ensures that accounts remain optimized and profitable, contributing to the overall success of the organization.</p>
+<p>Whether in a full-time leadership role or as an interim manager and consultant, I am committed to driving excellence and achieving outstanding results.</p>
+`;
+
+expandableContainer.innerHTML = expandableParagraph1;
+
+
 
     textContainer.appendChild(h2);
     textContainer.appendChild(p);
     textContainer.appendChild(ul);
+    textContainer.appendChild(expandable);
+    textContainer.appendChild(expandableContainer);
     
 
+    
     parentContainer.appendChild(textContainer);
 
     return parentContainer;
@@ -171,53 +210,113 @@ const section4 = () => {
     const heading1 = createH2Component("Career History");
     
 
-    const card1 = createSection4Card(
-        hochdorfLogo,
-        "Head Of Brand (International)",
-        "Hochdorf Swiss Nutrition AG",
-        "May 2020 - July 2023",
-        "I directly reported to the CEO, leading the formulation and execution of aligned strategic plans spanning regions like China CBEC, APAC, LATAM, and EMEA.",
-    ["Took responsibility for international expansion of Babina and Bimbosan brands, multiple new markets while launching plans for 2021 and 2022 for Hong Kong, Macao, Cambodia and Greece.",
-        "Led project management in branded and private label business with clearly defined priorities and strategic approach to different projects.",
-     "Directly managed and inspired a global 5 Sales team members."   
+    // const card1 = createSection4Card(
+    //     hochdorfLogo,
+    //     "Head Of Brand (International)",
+    //     "Hochdorf Swiss Nutrition AG (Switzerland)",
+    //     "May 2020 - July 2023",
+    //     "I directly reported to the CEO, leading the formulation and execution of aligned strategic plans spanning regions like China CBEC, APAC, LATAM, and EMEA.",
+    // ["Took responsibility for international expansion of Babina and Bimbosan brands, multiple new markets while launching plans for 2021 and 2022 for Hong Kong, Macao, Cambodia and Greece.",
+    //     "Led project management in branded and private label business with clearly defined priorities and strategic approach to different projects.",
+    //  "Directly managed and inspired a global 5 Sales team members."   
 
 
-    ]
+    // ]
         
-    );
-    const card2 = createSection4Card(
+    // );
+    const card1ExpandableContent = `   
+        <ul>
+            <li><strong>International Expansion:</strong> Spearheaded the international expansion of Bimbosan and Babina, successfully launching in multiple new markets including Hong Kong, Macao, Cambodia, and Greece for 2021 and 2022.</li>
+            <li><strong>Project Management:</strong> Led project management initiatives for both branded and private label businesses, with clearly defined priorities and a strategic approach tailored to different projects.</li>
+            <li><strong>Team Leadership:</strong> Directly managed and inspired a global team of five sales members, fostering a collaborative and high-performing environment.</li>
+            <li><strong>Strategic Planning:</strong> Developed and executed aligned strategic plans to drive market penetration and brand growth across diverse regions.</li>
+            <li><strong>Market Launch:</strong> Orchestrated comprehensive launch plans, ensuring seamless market entry and brand activation in new territories.</li>
+            <li><strong>Cross-Functional Collaboration:</strong> Worked closely with various departments to ensure cohesive and effective implementation of strategic initiatives.</li>
+            <li><strong>Performance Metrics:</strong> Monitored and analyzed key performance indicators to optimize strategies and achieve targeted growth objectives.</li>
+        </ul>
+        <p>My tenure at Hochdorf Swiss Nutrition AG was marked by significant achievements in market expansion, brand growth, and strategic leadership, contributing to the overall success and reputation of the company.</p>
+
+
+    `;
+    const card1 = createSection4CardVersion2(hochdorfLogo, "Head of Sales Brand International", "Hochdorf Swiss Nutrition AG (Switzerland)", "May 2020 - July 2023", "As the Head of Sales Brand International at Hochdorf Swiss Nutrition AG, I reported directly to the CEO, leading the formulation and execution of strategic plans for the Baby Care division across regions such as China CBEC, APAC, LATAM, and EMEA. My responsibilities included managing the categories of Infant Milk and Baby Food, with a focus on the brands Bimbosan and Babina. Key achievements included:", card1ExpandableContent);
+
+    const card2ExpandableContent = `
+    <ul>
+        <li><strong>P&L Improvement:</strong> Drove substantial improvements in the P&L of key countries, ensuring financial health and operational efficiency.</li>
+        <li><strong>Team Management:</strong> Oversaw 25 distributors and teams, delivering meticulous training to over 300 distributor staff across Asia to enhance performance and alignment.</li>
+        <li><strong>Multicultural Collaboration:</strong> Collaborated with diverse partners and stakeholders across five production sites in Switzerland, Germany, Spain, the UK, Egypt, and Turkey, managing various categories and brands within the Hero Group.</li>
+        <li><strong>Retail Strategy:</strong> Designed and executed a comprehensive retail strategy, focusing on expansion across Retail, Food Service, Hospitality, E-commerce, and Global Retail Duty-Free sectors.</li>
+        <li><strong>Market Expansion:</strong> Spearheaded market expansion initiatives, ensuring the brand's presence and growth in key Asian markets.</li>
+        <li><strong>Stakeholder Engagement:</strong> Built and maintained strong relationships with internal and external stakeholders to drive strategic initiatives and achieve business objectives.</li>
+        <li><strong>Performance Optimization:</strong> Continuously monitored and optimized performance metrics to ensure alignment with growth targets and strategic goals.</li>
+    </ul>
+    <p>My tenure at Hero AG was characterized by significant advancements in market expansion, financial performance, and strategic leadership, contributing to the company's success and market position.</p>
+
+    ` 
+
+    const card2 = createSection4CardVersion2(
         hero1Logo,
         "Sales Director (Asia Pacific)",
         "Hero AG (Hong Kong)",
         "July 2019 - May 2020",
-        "As the Sales Director for Asia at Hero Group, I reported directly to the Vice-President of Global Export, steering a comprehensive portfolio of responsibilities. My role extended beyond achieving targets in P&L, A&P, sales, business development, and marketing to encompass the intricate design and execution of our retail strategy.",
-        ["Driving substantial improvements in the P&L of key countries. Oversaw 25 distributors and teams, delivering meticulous training to 300+ distributor’s staff across Asia.",
-"Collaborated with multicultural partners and stakeholders across five production sites in CH, DE, ES, UK, Egypt & Turkey dealing with diverse categories and brands within the Hero Group.",
-" Responsible for design and execution of retail strategy, delivering expansion focus across Asia, focusing on Retail, Food Service, Hospitality, E-commerce, Global retail Duty Free."
-        ]
+"As the Sales Director for Asia at Hero Group, I reported directly to the Vice-President of Global Export, steering a comprehensive portfolio of responsibilities. My role extended beyond achieving targets in P&L, A&P, sales, business development, and marketing to encompass the intricate design and execution of our retail strategy. I managed various categories including Infant Milk, Baby Food, Jams, Cereal and Energy Bars, Organic Baby Food, and Juices, with a focus on brands such as Hero, Organix, Hero Baby, Schwartau, and Corny. Key achievements included:",
+card2ExpandableContent
+
     );
-const card3 = createSection4Card(
+    const card3ExpandableContent = `
+    <p><strong>Operational Excellence:</strong> Aided the Hong Kong Office in increasing operational productivity and turnover, delivering double-digit growth.</p>
+    <p><strong>Regional Growth:</strong> Took responsibility for APAC for all brands and growth, achieving significant increases: +11% for Indonesia, +66% for the Philippines, +15% for Australia, +730% for Vietnam, +58% for Cambodia, and +126% for the Maldives.</p>
+    <p><strong>Brand Launch:</strong> Operated as Project Leader for the launch of the Hero Baby brand, overseeing all strategic activities including regulatory compliance, road-to-market strategies, pricing, category strategy, channel strategy, product portfolio strategy, trade, and marketing activities. Additionally, provided training to the distribution team to ensure successful market entry and brand activation.</p>
+    <p>My tenure at Hero AG was marked by substantial market growth, strategic brand management, and operational excellence, contributing to the company's success and market leadership in the APAC region.</p>
+
+    `;
+const card3 = createSection4CardVersion2(
     hero2Logo,
     "Regional Sales Manager, APAC",
     "Hero AG, (Hong Kong)",
     "July 2015 - June 2019",
-    "reporting to Export Director, responsible for business delivery for APAC countries, operating from Hong Kong representing all brands of Hero Group, including Hero (ams), Hero Baby, Organix (Baby Food), Corny (Healthy Snacks) and Schwartau (Jams).",
-    ["Aided Hong Kong Office function to increased OP and turnover, expected to deliver double digit growth.",
-        "Took responsibility for APAC for all brands and growth, delivering +11% for Ind, +66% for Ph, +15% in Aus, +730% in Vtn, +58% for Cambodia and +126% for the Maldives.",
-        "Launched Hero Baby brand, operating as Project Leader, responsible for all strategic activities, focusing on regulatory, Road-To-Market, launches, pricing strategy, category strategy, channel strategy, product portfolio strategy, trade and marketing activities while providing training to Distribution team."
+    "As the Regional Sales Manager for APAC at Hero AG, reporting to the Export Director, I was responsible for business delivery across APAC countries, operating from Hong Kong. I represented all brands of the Hero Group, including Hero (Jams), Hero Baby, Organix (Baby Food), Corny (Healthy Snacks), and Schwartau (Jams). Key achievements included:",
+    card3ExpandableContent
 
-    ]
 );
-const card4 = createSection4Card(
+const card4ExpandableContent = `
+    <ul>
+        <li><strong>Business Development:</strong> Developed business directly with retailers and indirectly with distributors, managing a €3 million portfolio.</li>
+        <li><strong>Market Launch:</strong> Successfully launched the Hero Baby brand in Chile and Peru, securing placements in major modern trade accounts such as Walmart, Cencosud, Unimart, and Tottus Supermarket.</li>
+        <li><strong>Strategic Planning:</strong> Implemented strategic plans to drive market penetration and brand growth across LATAM and APAC regions.</li>
+        <li><strong>Stakeholder Engagement:</strong> Built and maintained strong relationships with key retailers and distributors to ensure successful market entry and sustained growth.</li>
+    </ul>
+    <p>My tenure at Hero AG was characterized by strategic market entry, brand growth, and effective stakeholder management, contributing to the company's success and market expansion in LATAM and APAC regions.</p>
+`;
+
+const card4 = createSection4CardVersion2(
     hero3Logo,
     "Export Key Account Manager (LATAM & APAC)",
     "Hero AG (Spain)",
     "January 2012 - June 2015",
-    "Export Key Account Manager, reporting to Export Director, responsible for LATAM and APAC for Hero Jams and Baby Food operating from Murcia in Spain.",
-    ["Required to develop business directly with retailers / indirectly with distributors for €3m business.",
-       "Launched in Chile and Perú Hero Baby brand to all modern trade accounts, like including Walt Mart, Cencosud, Unimart and Tottus Supermarket." 
-    ]
+    "As the Export Key Account Manager for LATAM and APAC at Hero AG, reporting to the Export Director, I was responsible for managing the Hero Jams and Baby Food categories, operating from Murcia, Spain. Key achievements included:",
+card4ExpandableContent    
 );
+
+const relevantEarlierCareerTitle = createH2Component("Relevant Earlier Career")
+
+const relevantEarlierCareerContainer = document.createElement("div");
+relevantEarlierCareerContainer.className = "section-4-card-containers";
+
+
+
+const relevantEarlierCareerContent = `
+        <ul class="list">
+            <li><time datetime="2010-03">03/2010</time> - <time datetime="2011-12">12/2011</time>: SP Group: Export Business Development (ES)</li>
+            <li><time datetime="2005-01">01/2005</time> - <time datetime="2009-02">02/2009</time>: Brioche Pasquier Recondo S.L.: Sales Manager / Regional KAM (ES)</li>
+            <li><time datetime="2001-09">09/2001</time> - <time datetime="2004-12">12/2004</time>: Elios Shipping S.L Forwarding Agency: Sales Manager (ES)</li>
+            <li><time datetime="2001-02">02/2001</time> - <time datetime="2001-08">08/2001</time>: Safetrading S.L.: Financial Advisor (ES)</li>
+        </ul>
+`
+
+relevantEarlierCareerContainer.innerHTML = relevantEarlierCareerContent;
+
+
 
 const heading2 = createH2Component("Education");
 
@@ -226,9 +325,11 @@ educationCardsContainer.id = 'education-card-container';
 
 const education1 = createEducationCard(educationLogo1, "<span class='span-bolds'>Degree in Business Administration</span><br>Universidad Nacional del Centro<br>Argentina<br>2000");
 const education2 = createEducationCard(educationLogo2, "<span class='span-bolds'>Masters Degree in Marketing & Sales Directorship</span><br>ESIC Business School<br>Spain<br>2007");
+const education3 = createEducationCard(educationLogo3, "<span class='span-bolds'>IPMA: Project Management Swiss CERTIFIED AGILE ASSOCIATE<br>IPMA®️ LEVEL D</span><br>2024");
 
 educationCardsContainer.appendChild(education1);
 educationCardsContainer.appendChild(education2);
+educationCardsContainer.appendChild(education3);
 
 parentContainer.appendChild(img1);
 parentContainer.appendChild(heading1);
@@ -236,6 +337,8 @@ parentContainer.appendChild(card1);
 parentContainer.appendChild(card2);
 parentContainer.appendChild(card3);
 parentContainer.appendChild(card4);
+parentContainer.appendChild(relevantEarlierCareerTitle);
+parentContainer.appendChild(relevantEarlierCareerContainer);
 parentContainer.appendChild(heading2);
 parentContainer.appendChild(educationCardsContainer);
 
@@ -300,6 +403,63 @@ if (bulletPoints){
 
     return container;
 }
+function createSection4CardVersion2(image, title, company, duration, description,  expandableContent) {
+    
+    const container = document.createElement("div");
+    container.className = "section-4-card-containers";
+
+    const imgContainer = document.createElement("div");
+    imgContainer.className = "gradient-img-containers";
+    const img = document.createElement("img");
+    img.src = image;
+    img.alt = company;
+    img.ariaHidden = true;
+
+    const gradientOverlay = document.createElement("div");
+    gradientOverlay.className = "gradient-overlays";
+
+    imgContainer.appendChild(img);
+    imgContainer.appendChild(gradientOverlay);
+
+    const h3 = document.createElement("h3");
+    h3.innerHTML = title;
+
+    const p1 = document.createElement("p");
+    p1.innerHTML = company;
+
+    const p2 = document.createElement("p");
+    p2.innerHTML = duration;
+
+    const p3 = document.createElement("p");
+    p3.innerHTML = description;
+
+    const p4 = document.createElement("p");
+    p4.className = 'expandables';
+    p4.innerHTML = "Read more";
+
+    // Append the elements to the container
+    container.appendChild(imgContainer);
+    container.appendChild(h3);
+    container.appendChild(p1);
+    container.appendChild(p2);
+    container.appendChild(p3);
+    container.appendChild(p4);
+
+const expandableContainer = document.createElement("div");
+expandableContainer.className = "list hidden";
+expandableContainer.setAttribute('aria-hidden', 'true');
+expandableContainer.innerHTML = expandableContent;
+
+
+    container.appendChild(expandableContainer);
+
+
+    return container;
+}
+
+
+
+
 function createH2Component(innerHtml) {
     const container = document.createElement("div");
     container.className = "h2-containers";
@@ -314,14 +474,23 @@ function createEducationCard(img,title) {
     const card = document.createElement("div");
     card.className = "education-cards";
 
+    const imgContainer = document.createElement("div");
     const image = document.createElement("img");
     image.src = img;
+
+    const gradientOverlay = document.createElement("div");
+    gradientOverlay.className = "gradient-overlays";
+    
+
+    imgContainer.appendChild(image);
+    imgContainer.appendChild(gradientOverlay);    
 
     const h3 = document.createElement("h3");
     h3.innerHTML = title;
 
-    card.appendChild(image);
+    card.appendChild(imgContainer);
     card.appendChild(h3);
+
 
     return card;
 
@@ -758,5 +927,5 @@ anchor.appendChild(h4);
 
 
 export { section1, section2, section3, section4 , section5,
-section6,
+section6, linkedInBannerSection,
 };

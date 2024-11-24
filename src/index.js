@@ -1,13 +1,14 @@
 
 import "./style.css"
 import { section1, section2, section3, section4,
-    section5, section6
+    section5, section6, linkedInBannerSection,
  } from './landing-page.js';
  
 
 
 
 document.body.appendChild(section1());
+document.body.appendChild(linkedInBannerSection());
 document.body.appendChild(section2());
 document.body.appendChild(section6());
 document.body.appendChild(section3());

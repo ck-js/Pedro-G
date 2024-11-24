@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif; /* Default font for body text */
+    overflow-x: hidden;
     
     
 }
@@ -42,7 +43,7 @@ body {
     background-color: var(--main-bg-color);
     color: var(--main-text-color);
     font-size: var(--primary-font-size);
-    padding-bottom: 50vh;
+    /* padding-bottom: 50vh; */
 }
 .parent-containers {
     display: flex;
@@ -59,12 +60,15 @@ body {
     padding-left: 100px;
     text-align: left;
     align-items: flex-start;
+    position: relative;
+    
 
 }
 .text-containers {
     display: flex;
     flex-direction: column;
     /* border: 2px solid #bbeD2F; */
+    
 }
 .text-containers h1 {
     
@@ -82,8 +86,6 @@ body {
     
 }
 
-
-
 #text-container-1 p {
     margin-bottom: 100px;
     
@@ -95,13 +97,16 @@ body {
 #parent-container-2 {
 background-color: var(--secondary-bg-color);    
 color: var(--secondary-text-color);
-    height: 50vh;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
     text-align: left;
+    margin-top: 0;
     
 }
-#parent-container-2 ul {
+/* margin#parent-container-2 ul {
     list-style-type: square;
-}
+} */
 .sub-titles {
     padding: 40px 0;
     font-size: 14px;
@@ -114,6 +119,9 @@ color: var(--secondary-text-color);
 #parent-container-2 ul {
     padding: 20px 0;
 
+}
+.expandable-container p {
+    padding: 20px 0;
 }
 #parent-container-3 {
     background-color: var(--neon-green-color);
@@ -162,13 +170,14 @@ text-align: center;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 50%;
+    height: 15%;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
   }
 .expandables {
     cursor: pointer;
             color: #007bff;
             text-decoration: underline;
+            margin: 10px 0;
 }
 .hidden {
     max-height: 0;
@@ -184,8 +193,14 @@ text-align: center;
             padding-top: 20px;
             padding-bottom: 20px;
 }
+.list li {
+    padding: 10px 0;
+}
+.list p {
+    padding: 20px 0;
+}
 .h2-containers  {
-    padding: 40px 0;
+    padding: 40px 0 10px;
     font-size: 18px;
     text-align: center;
     align-self: flex-start;
@@ -193,7 +208,7 @@ text-align: center;
 }
 
 .section-4-card-containers {
-    padding: 20px 10px;
+    padding: 40px 10px;
     transition: max-height 0.3s ease;
     background-color: black;
             overflow: hidden;
@@ -220,18 +235,24 @@ overflow-x: auto;
 column-gap: 25px;
 padding: 25px 0;
 scroll-snap-type: x mandatory;
+width: 100%;
+box-sizing: border-box;
+
 
 }
 .education-cards {
     background-color: var(--secondary-bg-color);
-    min-width: 75%;
     border-radius: 8px;
     box-shadow: var(--card-items-box-shadow);
 color: var(--secondary-text-color);
     text-align: center;
-scroll-snap-align: start;
+
 padding-top: 20px;
 padding-bottom: 20px;
+
+flex: 0 0 auto; /* Prevent the child elements from shrinking or growing */
+    width: 300px; /* Set a fixed width for the child elements */
+    scroll-snap-align: start;    
 }
 
 #case-studies:hover {
@@ -370,4 +391,8 @@ text-align: left;
 border-radius: 1px;
     
 }
-
+#parent-container-7 {
+    padding: 0;
+    margin: 0;
+    height: 146px;
+}
