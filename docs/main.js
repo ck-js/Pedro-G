@@ -276,7 +276,7 @@ eval("module.exports = __webpack_require__.p + \"af38d19f092b59350b00.png\";\n\n
   \*************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"835151946b46f1e01256.png\";\n\n//# sourceURL=webpack://pedro/./src/pedro-1.png?");
+eval("module.exports = __webpack_require__.p + \"83ef460d98a66aed8037.png\";\n\n//# sourceURL=webpack://pedro/./src/pedro-1.png?");
 
 /***/ }),
 
@@ -286,7 +286,7 @@ eval("module.exports = __webpack_require__.p + \"835151946b46f1e01256.png\";\n\n
   \*************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"835151946b46f1e01256.png\";\n\n//# sourceURL=webpack://pedro/./src/pedro-2.png?");
+eval("module.exports = __webpack_require__.p + \"83ef460d98a66aed8037.png\";\n\n//# sourceURL=webpack://pedro/./src/pedro-2.png?");
 
 /***/ }),
 
